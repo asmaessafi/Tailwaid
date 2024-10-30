@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-gradient-to-r from-cyan-500 to-blue-500">
+    <!------------------  navbar ------------------->
+    <div class="bg md:h-16  my-4 flex justify-between items-center flex-col md:flex-row">
+        <h1 class="ml-4 font-title font-extrabold text-cyan-500	 ">Asma Essafi</h1>
+        <ul value="none" class="flex items-center flex-col md:flex-row">
+            <li class="mr-3 p-1 font-title" id="home">Home</li>
+            <a href="#skills">
+                <li class="lis">Skills</li>
+            </a>
+            <a href="#projects">
+                <li class="lis">Projects</li>
+            </a>
+            <a href="#contact">
+                <li class="lis">Contact</li>
+            </a>
+        </ul>
+
+    </div>
+
+
+    <!------------------ body ---------------------->
+    <div class="bg mt-10 mb-5 relative p-5">
+        <!------------------ hero section  --------------------->
+        <div class="flex justify-center ">
+            <div
+                class=" h-64 bg-mybg rounded shadow-2xl  shadow-blue-900/100  md:bottom-3/4  flex flex-col content-start md:flex-row items-center gap-8 p-1">
+                <h1 class="font-title font-extrabold  text-cyan-200 text-center ">Hello! I'm ASMA : </h1>
+                <p class=" text-start text-gray-400 mt-12 "> a 18 years old web designer and developper from Tunisia
+                    <br>
+                    a small midlle-eastern country,
+                    i create custom websites <br>to help busnisses do better on line . </p>
+            </div>
+        </div>
+        <!------------------ skills section  ------------------->
+        <div class="grid md:grid-cols-2  gap-4  m-2 p-1 ">
+            <div>
+                <h1 id="skills" class="skill">Technical Skills :</h1>
+                <ul class="list-inside	">
+                    <li>
+                        <p class="p">Programming Languages: </p>Proficient in HTML, CSS, JavaScript, Python, Java, and
+                        C++.
+                    </li>
+                    <li>
+                        <p class="p">Frameworks and Libraries:</p> Experienced with React, Angular, Vue.js, Django,
+                        Flask, and Bootstrap.
+                    </li>
+                    <li>
+                        <p class="p">Tools and Platforms:</p> Skilled in using Git, GitHub, Docker, Jenkins, AWS, and
+                        Azure.
+                    </li>
+                    <li>
+                        <p class="p">Databases:</p> Knowledgeable in MySQL, PostgreSQL, MongoDB, and SQLite.
+                    </li>
+                    <li>
+                        <p class="p">Version Control:</p> Expertise in Git and other version control systems.
+                    </li>
+                    <li>
+                        <p class="p">Web Development:</p> Strong understanding of responsive design, cross-browser
+                        compatibility, and web performance optimization.
+                    </li>
+                    <li>
+                        <p class="p">APIs:</p> Proficient in creating and consuming RESTful services and GraphQL.
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h1 class="skill">Soft Skills :</h1>
+                <ul class="list-inside 	">
+                    <li>
+                        <p class="p">Problem-Solving:</p> Adept at troubleshooting and resolving complex issues.
+                    </li>
+                    <li>
+                        <p class="p">Communication:</p> Excellent at conveying ideas clearly and effectively to team
+                        members and clients
+                    </li>
+                    <li>
+                        <p class="p">Collaboration:</p> Experienced in working within team environments using tools like
+                        Slack, Trello, and Jira.
+                    </li>
+                    <li>
+                        <p class="p">Time Management:</p> Efficient in managing time and meeting deadlines.
+                    </li>
+                    <li>
+                        <p class="p">Adaptability:</p> Quick to learn new technologies and adapt to changing project
+                        requirements.
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <!------------------ project section  ------------------->
+        <div>
+            <h1 id="projects" class="skill my-8">My Projects:</h1>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-items-center w-full ">
+            <!-- 1st project -->
+            <div class="project">
+                <div><img class=""
+                        src="https://uploads.sitepoint.com/wp-content/uploads/2013/03/1501598563featured-getting-started-sass.jpg">
+                </div>
+                <i class="fa-regular fa-heart  text-cyan-400 absolute top-2 right-2 "></i>
+
+                <div>
+                    <a href="#">
+                        <h2 class="title">SASS:</h2>
+                    </a>
+                    <p class="text-center pb-2">A project only using sass</p>
+                </div>
+            </div>
+            <!-- 2nd project -->
+            <div class="project">
+                <div><img class=""
+                        src="https://storage.googleapis.com/cuttles_cms/Svg_Bootstrap_Logo_3db7a76c25/Svg_Bootstrap_Logo_3db7a76c25.svg">
+                </div>
+                <i class="fa-regular fa-heart  text-cyan-400 absolute top-2 right-2 "></i>
+
+                <div>
+                    <a href="#">
+                        <h2 class="title">BOOTSTRAP:</h2>
+                    </a>
+                    <p class="text-center pb-2">A project only using Bootstrap</p>
+                </div>
+            </div>
+
+            <!-- 3rd project -->
+            <div id="project" class="project">
+                <div><img class=""
+                        src="https://media.licdn.com/dms/image/D4D12AQGGTG6qx4_Xyw/article-cover_image-shrink_720_1280/0/1690352581328?e=2147483647&v=beta&t=icrEdK9pjpa0gF82PQyvf0Wd0XYaOJ5vVBl7c6Sbj-E">
+                </div>
+                <i class="fa-regular fa-heart  text-cyan-400 absolute top-2 right-2 "></i>
+
+                <div>
+                    <a href="#">
+                        <h2 class="title">TAILWAIND:</h2>
+                    </a>
+                    <p class="text-center pb-2">A project only using tailwaind</p>
+                </div>
+            </div>
+
+
+        </div>
+        <!------------------ contact section  ------------------->
+        <section id="contact">
+            <h1 class="mt-10 ml-96 skill">CONTACT:</h1>
+            <form class="p-3 flex items-center flex-col " novalidate>
+                <div class="mb-2"><label class="form">Noun:</label><input class="peer input" required type="text">
+                    <p class="hidden peer-invalid:block text-pink-400">user name required</p>
+                </div>
+
+                <div class="mb-2"><label class="form ">E-mail:</label><input class="peer input" required type="email">
+                <p class="hidden peer-invalid:block text-pink-400">user e-mail required</p></div>
+                <div class="flex "><label class="form top-5 ml-16 ">Message:</label><textarea class="input" rows="6"
+                        cols="30" placeholder="type your message here"></textarea></div>
+                <div class="flex gap-3 mt-5">
+                   
+                    <button type="submit" class="text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 shadow-lg shadow-green-500/50 dark:shadow-lg dark:shadow-green-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Submit</button>
+                    <button type="reset" class="text-white bg-gradient-to-r from-cyan-400 via-cyan-500 to-cyan-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 shadow-lg shadow-cyan-500/50 dark:shadow-lg dark:shadow-cyan-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Reset</button>
+                </div>
+
+
+            </form>
+        </section>
+        <a href="#home">
+            <p class="m-3 title w-7"> Home</p>
+        </a>
+
+
+
+
+    </div>
+    <!------------------- footer ------------------->
+
+    <footer
+        class="bg-gradient-to-r from-cyan-100 to-blue-100  mt-4 flex md:flex-row md:justify-around flex-col items-center w-full gap-3">
+        <div>
+            <h3>Contact:</h3>
+            <p>Email: asmaessafi137@gmail.com</p>
+            <p>Téléphone: +216 29 551 459</p>
+        </div>
+        <div>
+            <div>
+                <h3>follow-me:</h3>
+                <div class="flex">
+                    <img class="h-9 w-9 mr-1"
+                        src="https://th.bing.com/th/id/R.425c0312ff1a933f3faa7539bef999cf?rik=FI7ZQ3c%2bZX3Vyw&riu=http%3a%2f%2fwww.pngall.com%2fwp-content%2fuploads%2f2016%2f07%2fLinkedin-PNG-Image.png&ehk=4mO3IVKfAhsOr2I2kyiPoAPIsF6GWFUBYNO8rCWxMl0%3d&risl=&pid=ImgRaw&r=0">
+                    <img class="h-9 w-9" src="https://pngimg.com/uploads/github/github_PNG40.png">
+
+                </div>
+
+            </div>
+
+            <div>
+                © 2024 all rights are reserved
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
